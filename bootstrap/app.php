@@ -11,7 +11,7 @@
 |
 */
 
-echo "기본 기능을 선언하는 부트스트랩 파일<br>";
+// 페이지 로딩순서 - 3 - 기본 기능을 선언
 
 $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)

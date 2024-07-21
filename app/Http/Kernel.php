@@ -4,7 +4,7 @@ namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
-echo "웹페이지 불러오기 전에 필요한게 있는지 확인하는 커널<br>";
+// 페이지 로딩순서 - 4 - 웹페이지 불러오기 전에 필요한게 있는지 확인하는 커널
 
 class Kernel extends HttpKernel
 {

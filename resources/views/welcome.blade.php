@@ -16,8 +16,7 @@
         </style>
     </head>
     <body class="antialiased">
-
-        {{"페이지 불러오기 소스 완료! 블레이드에서 무언가 출력하고 싶으면 대갈호 2개 쓰고 변수나 문자열 입력!!"}}
+        <!-- 페이지 로딩순서 - 8 - 페이지 불러오기 소스 완료! -->
         <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">

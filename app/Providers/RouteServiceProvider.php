@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 
-echo "주소 구분하는 파일들 호출<br>";
+// 페이지 로딩순서 - 6 - 주소 구분하는 파일들 호출
 
 class RouteServiceProvider extends ServiceProvider
 {
