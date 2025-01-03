@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Http\Controllers\NewController;
+use App\Http\Controllers\Acontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,16 @@ use App\Http\Controllers\NewController;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/one', function () {
+    for($i=0; $i<3; $i++) {
+        echo "<p>";
+        echo app(Acontroller::class)->multiple(2);
+        echo "</p>";
+        echo "<br/>";
+    }
+    return "--------------";
 });
 
 Route::get('get', [NewController::class, "index"]);

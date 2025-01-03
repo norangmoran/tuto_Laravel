@@ -10,4 +10,10 @@ class NewController extends Controller
     {
         return view("routing");
     }
+
+    public function post(Request $request)
+    {
+        $data = $request->input("name");
+        return view('routing', ["id" => "", "data" => $data]);
+    }
 }
