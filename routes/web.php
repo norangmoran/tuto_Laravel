@@ -21,6 +21,10 @@ use App\Http\Controllers\Acontroller;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/test', function () {
+    return "미들웨어 테스트";
+})->middleware("test");
+
 
 Route::get('/one', function () {
     for($i=0; $i<3; $i++) {
