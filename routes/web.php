@@ -19,7 +19,7 @@ use App\Http\Controllers\Acontroller;
 // 페이지 로딩순서 - 7 - 블레이드 페이지 파일 불러오기 바로 직전
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('livewire.welcome',["post"=>"자식에게 넘겨줄 값"]);
 });
 Route::get('/test', function () {
     return "미들웨어 테스트";

@@ -6,8 +6,9 @@ use Livewire\Component;
 
 class Welcome extends Component
 {
+    public $post;
     public function render()
     {
-        return view('livewire.welcome');
+        return view('livewire.welcome',["post" => $this->post]);
     }
 }
