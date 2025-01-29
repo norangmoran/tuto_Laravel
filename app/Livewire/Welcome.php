@@ -8,6 +8,8 @@ class Welcome extends Component
 {
     public $post;
     public $clicked;
+    public $toggle = false;
+
     public function mount()
     {
         $this->clicked = "클릭 전";
