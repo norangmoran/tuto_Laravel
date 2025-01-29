@@ -11,7 +11,7 @@
         @livewireStyles
     </head>
     <body>
-        <livewire:welcome :post="['one', 'two']"/>
+        <livewire:welcome :post="'텍스트 입력'"/>
         @livewireScripts
     </body>
 </html>
